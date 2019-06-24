@@ -3,4 +3,4 @@ syntax = "proto3";
 package greet;
 option go_package="greetpb";
 
-service GreetServide{}
+service GreetService{}

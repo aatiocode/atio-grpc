@@ -6,7 +6,6 @@ import (
 	"net"
 
 	"github.com/aristio/grpc-go/greet/greetpb"
-
 	"google.golang.org/grpc"
 )
 
@@ -26,4 +25,5 @@ func main() {
 	if err := s.Serve(lis); err != nil {
 		log.Fatal("Failed to serve: %v", err)
 	}
+
 }
