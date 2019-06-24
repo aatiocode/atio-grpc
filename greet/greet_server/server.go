@@ -23,7 +23,7 @@ func main() {
 	greetpb.RegisterGreetServiceServer(s, &server{})
 
 	if err := s.Serve(lis); err != nil {
-		log.Fatal("Failed to serve: %v", err)
+		log.Fatalf("Failed to serve: %v", err)
 	}
 
 }
