@@ -1,2 +1,2 @@
-# atio-go
+# atio-grpc
 belajar gRPC menggunakan golang
